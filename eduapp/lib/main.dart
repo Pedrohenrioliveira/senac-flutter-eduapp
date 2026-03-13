@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'views/view.dart';  // importe sua tela aqui
 
 void main() {
   runApp(const MainApp());
@@ -9,12 +10,10 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: Scaffold(
-        body: Center(
-          child: Text('Hello World!'),
-        ),
-      ),
+    return MaterialApp(
+      title: 'Education App',
+      debugShowCheckedModeBanner: false,
+      home: const EducationAppMainScreen(),  // tela inicial
     );
   }
 }
