@@ -1,4 +1,5 @@
 import 'package:eduapp/Utils/colors.dart';
+import 'package:eduapp/views/featured_screen.dart';
 import 'package:flutter/material.dart';
 
 class EducationAppMainScreen extends StatefulWidget {
@@ -11,10 +12,10 @@ class EducationAppMainScreen extends StatefulWidget {
 class _EducationAppMainScreenState extends State<EducationAppMainScreen> {
   int selectedIndex = 0;
  static const List<Widget> _selectedPage = <Widget>[
-  Scaffold(),
-  Scaffold(),
-  Scaffold(),
-  Scaffold(),
+  FeaturedScreen(),
+  Scaffold(body: Center(child: Text("Learning"))),
+  Scaffold(body: Center(child: Text("Wishlist"))),
+  Scaffold(body: Center(child: Text("settings"))),
  ];
   @override
   Widget build(BuildContext context) {

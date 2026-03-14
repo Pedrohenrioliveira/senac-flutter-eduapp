@@ -17,3 +17,15 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  assets:
+    - lib/assets/accounting.jpg 
+    - lib/assets/app 1.png
+    - lib/assets/app.png
+    - lib/assets/app111.png
+    - lib/assets/design.jpg
+    - lib/assets/laptop.jpg
+    - lib/assets/marketing.png
+    - lib/assets/marketing (1).png
+    - lib/assets/photography.jpg
+    - lib/assets/web_development.png
+    
